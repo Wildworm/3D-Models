@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: HammerV1.ma
-//Last modified: Mon, Jan 15, 2018 06:10:14 PM
+//Last modified: Mon, Jan 15, 2018 06:11:40 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -14,13 +14,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "D22EB000-46A0-364F-10D6-898021887A3B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 32.991560355168119 4.7945707780670404 3.5931183731827971 ;
-	setAttr ".r" -type "double3" -5.1383527297481306 802.99999999988029 0 ;
+	setAttr ".t" -type "double3" -42.447865572016852 18.962062096741132 -9.5729294729368561 ;
+	setAttr ".r" -type "double3" -21.938352730130074 977.79999999961046 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "CD3E285F-4F70-6F3D-7348-90AE4A5B3D6C";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 34.048662793058689;
+	setAttr ".coi" 46.082760969331254;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
