@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
-//Name: Robot V1 Parented.ma
-//Last modified: Mon, Apr 16, 2018 06:46:24 PM
+//Name: Robot V1 Animated.ma
+//Last modified: Mon, Apr 16, 2018 06:46:39 PM
 //Codeset: 1252
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
@@ -41834,7 +41834,7 @@ createNode animCurveTU -n "Robot_Left_Ankle_scaleZ";
 	setAttr ".tan" 18;
 	setAttr -s 3 ".ktv[0:2]"  3 1 5 1 7 1;
 createNode nodeGraphEditorInfo -n "MayaNodeEditorSavedTabsInfo";
-	rename -uid "166EE5C2-4BFC-F123-FE04-2AB59453D8C6";
+	rename -uid "E9946978-4D9F-AA21-7097-8E96915F69AB";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -1566.6666044129283 -247.61903777955101 ;
 	setAttr ".tgi[0].vh" -type "double2" 1514.2856541134081 214.28570577076533 ;
@@ -45194,4 +45194,4 @@ connectAttr "Right_Leg1.msg" ":defaultShaderList1.s" -na;
 connectAttr "Left_Arm1.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "Robot.pa" ":characterPartition.st" -na;
-// End of Robot V1 Parented.ma
+// End of Robot V1 Animated.ma
